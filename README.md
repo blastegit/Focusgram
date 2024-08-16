@@ -87,13 +87,14 @@ apktool b -r -f -c decompiled_instagram
 The compiled APK file is located in the `dist` folder.
 
 ## ✏️ Step 6 : Signature
+> [!NOTE]
+> It is not necessary to repeat this key generation step for each APK signature. You can use the same signing key over and over again.
 
-All Android applications must be signed. To do this, we're going to start by generating our signature. Run this command in the command terminal :
-```bash
-keytool -genkeypair -alias key0 -keyalg RSA -keysize 4096 -validity 10000 -keystore instagram_key.jks
-```
-
-You will be asked to create a password that you will need to register somewhere. The rest of the information doesn't matter, you can leave it blank.
+> All Android applications must be signed. To do this, we're going to start by generating our signature. Run this command in the command terminal :
+> ```bash
+> keytool -genkeypair -alias key0 -keyalg RSA -keysize 4096 -validity 10000 -keystore instagram_key.jks
+> ```
+> You will be asked to create a password that you will need to register somewhere. The rest of the information doesn't matter, you can leave it blank.
 
 Finally, run this command, replacing your_password with the password you entered in the previous step :
 ```bash
