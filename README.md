@@ -37,7 +37,7 @@ Follow this guide and reclaim your time while staying connected to what truly ma
 
 ## 🚨 Before you begin
 > [!IMPORTANT]
-> For legal reasons, it is not permitted to modify the Instagram [apk](https://en.wikipedia.org/wiki/Apk_(file_format) "the file used to run an Android application") and distribute it freely. That's why this guide makes it easy to make these changes yourself.
+> For legal reasons, it is not permitted to modify the Instagram [apk](https://en.wikipedia.org/wiki/Apk_(file_format) "This format is used to run an Android application") and distribute it freely. That's why this guide makes it easy to make these changes yourself.
 
 Nevertheless, it is preferable to have some knowledge of computers to be able to follow and understand. All this so that you can adapt these changes to your own and possibly contribute to improving this repo. Ultimately, the idea is to automate the entire file modification process.
 
